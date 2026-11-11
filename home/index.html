@@ -34,6 +34,9 @@ p{margin:0}
 .stack{display:flex;flex-direction:column;gap:18px}
 .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--sans);font-size:15px;font-weight:500;background:var(--blue);color:#fff;text-decoration:none;padding:13px 22px;border-radius:3px}
 .btn:hover{background:var(--blue-deep);color:#fff}
+.btn.outline{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1.5px var(--blue)}
+.btn.outline:hover{background:var(--blue);color:#fff}
+.mz-link{font-family:var(--sans);font-size:15px}
 .btn.ghost{background:transparent;color:var(--blue);padding:0;border-radius:0;border-bottom:1px solid currentColor}
 
 /* header */
@@ -188,7 +191,9 @@ blockquote{margin:0;padding:4px 0 4px 20px;border-left:2px solid var(--red);colo
     <p class="eyebrow">Maritime Prosperity Zones</p>
     <h1>Break ground years sooner<br>in a <em class="mpz">Maritime Prosperity Zone.</em></h1>
     <p class="lede">Candor brings the tactics.</p>
-    <div class="hero-actions"><a class="btn" href="mailto:Stephen@Hollingshead.com">Talk to Us</a><span class="contact-line">or write <b>Stephen@Hollingshead.com</b></span></div>
+    <div class="hero-actions"><a class="btn" href="#mpz">How an MPZ works</a><a class="btn outline" href="mailto:Stephen@Hollingshead.com">Talk to Us</a></div>
+    <p class="mz-link">For states: <a href="https://mirrorzones.org">Be a Mirror Zone state at MirrorZones.org&nbsp;→</a></p>
+    <p class="contact-line">Or write <b>Stephen@Hollingshead.com</b></p>
   </div>
   <div class="hero-art"><img src="../img/scene.jpg" alt="Candor's lighthouse on a chessboard globe, with chess pieces around it" width="2300" height="1200"></div>
 </div></section>
